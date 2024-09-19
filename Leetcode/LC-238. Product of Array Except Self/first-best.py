@@ -1,7 +1,7 @@
 
 # Idea: prefix and postfix product
 # on the result list performing prefix product and then postfix product
-# TIME: O(n), SPACE: O(n) 
+# TIME: O(n), SPACE: O(n) (for result list, can be neglected as O(1))
 
 def productExceptSelf(self, nums: List[int]) -> List[int]:
       # 2nd best approach with extra space
